@@ -4,7 +4,7 @@ const path = require('path')
 
 const options = {
   define: { 'process.env.NODE_ENV': process.env.NODE_ENV },
-  entryPoints: [path.resolve(__dirname, 'src/Index.tsx')],
+  entryPoints: [path.resolve(__dirname, 'src/index.tsx')],
   minify: argv[2] === 'productions',
   bundle: true,
   target: 'es2016',
