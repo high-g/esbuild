@@ -1,0 +1,23 @@
+{
+  "name": "esbuild",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/high-g/esbuild.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/high-g/esbuild/issues"
+  },
+  "homepage": "https://github.com/high-g/esbuild#readme",
+  "devDependencies": {
+    "@types/node": "^16.10.1",
+    "esbuild": "^0.13.2"
+  }
+}
